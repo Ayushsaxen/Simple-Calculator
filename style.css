@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 36px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+body{
+    background: #31a7e2;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .calculatorform{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    border: 1px solid black;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.main .calculatorform div{
+    width: 100%;
+    height: calc(450px/6);
+    display: flex;
+    flex: 1;
+}
+.main .calculatorform div input{
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    border: 2px solid black;
+}
+.numbers{
+    color: #fff;
+    background-color: #099dff;
+    border: 1px solid blue;
+}
+.clearbtn{
+    background-color: #ff3077;
+    color: #fff;
+}
